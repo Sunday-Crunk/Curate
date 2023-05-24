@@ -97,7 +97,7 @@ export default class InfoPanel extends React.Component{
             <InfoPanelCard
                 identifier={"meta-user"}
                 style={this.props.style}
-                title={this.props.pydio.MessageHash['meta.user.1']}
+                title={"test"}
                 actions={actions.length ? actions : null}
                 icon="tag-multiple" iconColor="#00ACC1"
                 popoverPanel={popoverPanel}
